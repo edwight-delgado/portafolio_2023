@@ -3750,8 +3750,19 @@ input, select, textarea {
 			#nav {
 				display: none;
 			}
+            .image-txt-container{
+                flex-direction: column !important;
+            }
 
 		}
+
+@media screen and (max-width: 380px) {
+
+			#profile-img {
+				width:100% !important;
+			}
+
+}
 
 /* Main */
 
@@ -3933,6 +3944,7 @@ input, select, textarea {
 
 			#main > * {
 				padding: 2rem 2rem 0.1rem 2rem ;
+
 			}
 
 		}
